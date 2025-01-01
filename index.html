@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite Especial</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 600px;
+            width: 90%;
+        }
+        h1 {
+            color: #0a568b; /* Azul JW.org */
+        }
+        p {
+            color: #333;
+            font-size: 1.1em;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #0a568b; /* Azul JW.org */
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #084d7a;
+        }
+        #convite {
+            display: none;
+            margin-top: 20px;
+        }
+        .convite-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            color: #333;
+        }
+        .convite-container h1, h2 {
+            text-align: center;
+            color: #0a568b; /* Cor azul JW.org */
+        }
+        .discursos div {
+            background-color: #e8f3f8; /* Azul claro inspirado no site */
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        .highlight {
+            color: #0a568b; /* Cor azul JW.org */
+            font-weight: bold;
+        }
+        .map-link a {
+            color: #0a568b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .map-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Olá! Estás bem?</h1>
+        <p>Esta semana teremos uma reunião especial e lembrei-me de te convidar.</p>
+        <p><strong>Cumprimentos</strong></p>
+        <div class="button-container">
+            <button class="button" onclick="mostrarConvite()">CONVITE</button>
+        </div>
+        <div id="convite">
+            <div class="convite-container">
+                <h1>Convite Especial</h1>
+                <h2>Participe de dois discursos importantes!</h2>
+                <div class="discursos">
+                    <div>
+                        <h3 class="highlight">Tema: Porque é que os cristãos verdadeiros devem ser diferentes?</h3>
+                        <p><strong>Data:</strong> Domingo, 5 de janeiro de 2025</p>
+                        <p><strong>Horário:</strong> 10:00</p>
+                    </div>
+                    <div>
+                        <h3 class="highlight">Tema: Aprendamos com o maior dos menores</h3>
+                        <p><strong>Data:</strong> Domingo, 5 de janeiro de 2025</p>
+                        <p><strong>Horário:</strong> 11:15</p>
+                    </div>
+                </div>
+                <p class="footer">Local: Salão do Reino das Testemunhas de Jeová | Rua das Quintas, 96, 2825-021 Caparica</p>
+                <div class="map-link">
+                    <a href="https://maps.app.goo.gl/WcnLENmj6DbbYKfb6?g_st=com.google.maps.preview.copy" target="_blank">Ver localização no Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function mostrarConvite() {
+            const convite = document.getElementById('convite');
+            convite.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
